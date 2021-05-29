@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Changa One';
+    src: url('ChangaOne.eot');
+    src: url('ChangaOne.eot?#iefix') format('embedded-opentype'),
+        url('ChangaOne.woff2') format('woff2'),
+        url('ChangaOne.woff') format('woff'),
+        url('ChangaOne.ttf') format('truetype'),
+        url('ChangaOne.svg#ChangaOne') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
