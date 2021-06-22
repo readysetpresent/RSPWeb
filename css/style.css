@@ -2195,6 +2195,12 @@ button:focus {
     transition-duration: 0.3s;
 }
 
+.value-packs {
+    background-image: url(../images/valuepacks-banner/valuepacks-banner-bg.jpg);
+    background-attachment: inherit;
+    transition-duration: 0.3s;
+}
+
 .countries {
     background-image: url(../images/productDetails/ppt-countries-bg.jpg);
     background-attachment: inherit;
