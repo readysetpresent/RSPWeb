@@ -13,14 +13,24 @@ $(document).ready(function(){
 
     $('.download-banner a').click(function () {
         if ($('#agree').is(":not(:checked)")) {
-            alert('Kindly accept the terms and conditions to proceed');
+            alert('Please tick(\u2713) below terms and conditions to proceed');
+            $('#agree').css('outline', '4px solid #c00')
             return false;
+        }
+        else {
+            $('#agree').css('outline', '');
+            return true;
         }
     });
     $('.alcohol-banner-btn a').click(function () {
         if ($('#agree').is(":not(:checked)")) {
-            alert('Kindly accept the terms and conditions to proceed');
+            alert('Please tick(\u2713) below terms and conditions to proceed');
+            $('#agree').css('outline', '4px solid #c00')
             return false;
+        }
+        else {
+            $('#agree').css('outline', '');
+            return true;
         }
     });    
 });
