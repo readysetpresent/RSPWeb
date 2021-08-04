@@ -1,4 +1,5 @@
-$(document).ready(function(){ 
+var flashInterval;
+$(document).ready(function () { 
     $(window).scroll(function(){ 
         if ($(this).scrollTop() > 100) { 
             $('#scroll').fadeIn(); 
@@ -13,7 +14,7 @@ $(document).ready(function(){
 
     $('.download-banner a').click(function () {
         if ($('#agree').is(":not(:checked)")) {
-            alert('Please tick(\u2713) below terms and conditions to proceed');
+            alert('Please tick(\u2713) that you agree to follow the terms on Reprints & On-line Usage when purchasing any readysetpresent.com product');
             $('#agree').css('outline', '4px solid #c00')
             return false;
         }
@@ -24,7 +25,7 @@ $(document).ready(function(){
     });
     $('.alcohol-banner-btn a').click(function () {
         if ($('#agree').is(":not(:checked)")) {
-            alert('Please tick(\u2713) below terms and conditions to proceed');
+            alert('Please tick(\u2713) that you agree to follow the terms on Reprints & On-line Usage when purchasing any readysetpresent.com product');
             $('#agree').css('outline', '4px solid #c00')
             return false;
         }
